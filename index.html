@@ -6,6 +6,7 @@
   <title>Organização de Computadores</title>
   <link rel="stylesheet" href="css/estilo.css">
   <link rel="shortcut icon" href="anexos/favicon.ico" type="image/x-icon">
+  <script src="script.js"></script>
 </head>
 <body>
   <main>
@@ -27,16 +28,17 @@
     
     <div id="memoria-1">
       <h3>Aula 1 - Subsistemas de Memória 1</h3>
-      <h4>1.1 - Hierarquia de Memória</h4>
-      <img src="anexos/hierarquia-memoria.png" alt="Hierarquia de Memória">
-      
-      <h4>1.2 - Cálculos em Memória Principal</h4>
-
-      <h5>1.2.1 - Playlist com exercícios resolvidos</h5>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLGfA0pY4rnHDMhemmSVmtRFKVGukWAcv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-      <h5>1.2.2 - Outros exercícios resolvidos, em PDF</h5>
-      <iframe src="anexos/Exercicios_Resolvidos_Memoria.pdf" height="400px" width="90%"></iframe>
+      <a id="exibe-1" href="javascript:exibe_esconde(1)">[exibir conteúdo]</a>
+      <section class="conteudo" id="conteudo-1">
+        <h4>1.1 - Hierarquia de Memória</h4>
+        <img src="anexos/hierarquia-memoria.png" alt="Hierarquia de Memória">
+        
+        <h4>1.2 - Cálculos em Memória Principal</h4>
+        <h5>1.2.1 - Playlist com exercícios resolvidos</h5>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLGfA0pY4rnHDMhemmSVmtRFKVGukWAcv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h5>1.2.2 - Outros exercícios resolvidos, em PDF</h5>
+        <iframe src="anexos/Exercicios_Resolvidos_Memoria.pdf" height="400px" width="90%"></iframe>
+      </section>
 
       <br/><br/>
       <a href="#topo">[voltar para o topo]</a>
@@ -45,21 +47,22 @@
     
     <div id="memoria-2">
       <h3>Aula 2 - Subsistemas de Memória 2</h3>
+      <a id="exibe-2" href="javascript:exibe_esconde(2)">[exibir conteúdo]</a>
+      <section class="conteudo" id="conteudo-2">
+        <h4>Memória Cache - Introdução</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1WGq74ptXGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-      <h4>Memória Cache - Introdução</h4>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/1WGq74ptXGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>Políticas de Escrita em Memória Cache</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/o5PIv65Gpv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-      <h4>Políticas de Escrita em Memória Cache</h4>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/o5PIv65Gpv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>Memória Cache - Mapeamento Direto vs Associativo</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eojRu_yz24g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br/><br/>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VaegHC6cPNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-      <h4>Memória Cache - Mapeamento Direto vs Associativo</h4>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/eojRu_yz24g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <br/><br/>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/VaegHC6cPNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-      <h4>Mapeamento Direto, Mapeamento Associativo, Mapeamento Associativo por Conjunto</h4>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/qTvsyk-phEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+        <h4>Mapeamento Direto, Mapeamento Associativo, Mapeamento Associativo por Conjunto</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qTvsyk-phEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
       <br/><br/>
       <a href="#topo">[voltar para o topo]</a>
       <br/><br/>
@@ -67,16 +70,19 @@
     
     <div id="ucp-1">
       <h3>Aula 3 - Unidade central de processamento 1</h3>
+      <a id="exibe-3" href="javascript:exibe_esconde(3)">[exibir conteúdo]</a>
+      <section class="conteudo" id="conteudo-3">
+        <h4>Sobre o RDM e o REM</h4>
+        <p>
+          <span class="destaque">Registrador de dados de memória (RDM)</span> possui um tamanho igual ao do barramento de dados
+        </p>
+        <p>
+          <span class="destaque">Registrador de endereços de memória (REM)</span> possui um tamanho igual ao dos endereços de memória
+        </p>
 
-      <h4>Sobre o RDM e o REM</h4>
-      <p>
-        <span class="destaque">Registrador de dados de memória (RDM)</span> possui um tamanho igual ao do barramento de dados
-        <br/>
-        <span class="destaque">Registrador de endereços de memória (REM)</span> possui um tamanho igual ao dos endereços de memória
-      </p>
-
-      <h4>Formatos de instruções</h4>
-      <img src="anexos/formatos-instrucoes.png" alt="Hierarquia de Memória">
+        <h4>Formatos de instruções</h4>
+        <img src="anexos/formatos-instrucoes.png" alt="Hierarquia de Memória">
+      </section>
       <br/><br/>
       <a href="#topo">[voltar para o topo]</a>
       <br/><br/>
@@ -84,15 +90,18 @@
 
     <div id="ucp-2">
       <h3>Aula 4 - Unidade central de processamento 2</h3>
-      <h4>Ciclo de instrução</h4>
-      <h5>4.1 Fluxograma de um ciclo de instrução</h5>
-      <img src="anexos/fluxograma_ciclo_instrução.png" alt="Fluxograma de um ciclo de instrução">
-      <br/><br/>
-      <h5>4.2 Passos para a execução de uma instrução</h5>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/6NgfKgjGEY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <br/><br/>
-      <h5>4.3 Ciclo de Busca, Decodificação e Execução de Instruções pela CPU - em Detalhes</h5>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/kEhztbcUBcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+      <a id="exibe-4" href="javascript:exibe_esconde(4)">[exibir conteúdo]</a>
+      <section class="conteudo" id="conteudo-4">
+        <h4>Ciclo de instrução</h4>
+        <h5>4.1 Fluxograma de um ciclo de instrução</h5>
+        <img src="anexos/fluxograma_ciclo_instrução.png" alt="Fluxograma de um ciclo de instrução">
+        <br/><br/>
+        <h5>4.2 Passos para a execução de uma instrução</h5>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6NgfKgjGEY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br/><br/>
+        <h5>4.3 Ciclo de Busca, Decodificação e Execução de Instruções pela CPU - em Detalhes</h5>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kEhztbcUBcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
       <br/><br/>
       <a href="#topo">[voltar para o topo]</a>
       <br/><br/>
@@ -123,6 +132,7 @@
       <a href="#topo">[voltar para o topo]</a>
       <br/><br/>
     </div>
+
     <div id="exec-prog">
       <h3>Execução de programas</h3>
       <h4>Introdução</h4>
@@ -130,6 +140,7 @@
       <a href="#topo">[voltar para o topo]</a>
       <br/><br/>
     </div>
+
     <div id="inout">
       <h3>Entrada e saída</h3>
       <h4>Introdução</h4>
@@ -137,6 +148,7 @@
       <a href="#topo">[voltar para o topo]</a>
       <br/><br/>
     </div>
+
     <div id="arq-avanc">
       <h3>Arquiteturas avançadas</h3>
       <h4>Introdução</h4>

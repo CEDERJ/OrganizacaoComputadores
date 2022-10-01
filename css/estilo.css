@@ -55,3 +55,12 @@ ol a{
 .destaque{
   color: whitesmoke;
 }
+
+p{
+  text-align: left;
+  text-indent: 7%;
+}
+
+section.conteudo{
+  display: none;
+}
